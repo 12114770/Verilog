@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/fixedpoint/MyHDL/fixedpoint.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fixedpoint
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/fixedpoint/MyHDL/fixedpoint_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fixedpoint_tb

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/state_machine/MyHDL/state_machine.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module state_machine
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/state_machine/MyHDL/state_machine_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module state_machine_tb

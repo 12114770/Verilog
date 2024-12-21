@@ -1,0 +1,191 @@
+
+*** Running vivado
+    with args -log state_machine.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source state_machine.tcl
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Fri Dec 20 14:07:15 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source state_machine.tcl -notrace
+Command: synth_design -top state_machine -part xc7z020clg400-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 434002
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1931.367 ; gain = 443.734 ; free physical = 692 ; free virtual = 18386
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'state_machine' [/home/lukas/fpga_vivado/projects/state_machine/MyHDL/state_machine.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'state_machine' (0#1) [/home/lukas/fpga_vivado/projects/state_machine/MyHDL/state_machine.v:3]
+WARNING: [Synth 8-3330] design state_machine has an empty top module
+WARNING: [Synth 8-3917] design state_machine has port sIDLE driven by constant 1
+WARNING: [Synth 8-3917] design state_machine has port s1 driven by constant 1
+WARNING: [Synth 8-3917] design state_machine has port s2 driven by constant 1
+WARNING: [Synth 8-3917] design state_machine has port s3 driven by constant 1
+WARNING: [Synth 8-7129] Port clk in module state_machine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module state_machine is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2002.336 ; gain = 514.703 ; free physical = 602 ; free virtual = 18298
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2020.148 ; gain = 532.516 ; free physical = 602 ; free virtual = 18298
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-3
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-3
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2028.152 ; gain = 540.520 ; free physical = 602 ; free virtual = 18298
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2036.160 ; gain = 548.527 ; free physical = 595 ; free virtual = 18291
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3330] design state_machine has an empty top module
+WARNING: [Synth 8-3917] design state_machine has port sIDLE driven by constant 1
+WARNING: [Synth 8-3917] design state_machine has port s1 driven by constant 1
+WARNING: [Synth 8-3917] design state_machine has port s2 driven by constant 1
+WARNING: [Synth 8-3917] design state_machine has port s3 driven by constant 1
+WARNING: [Synth 8-7129] Port clk in module state_machine is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rst in module state_machine is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2134.035 ; gain = 646.402 ; free physical = 471 ; free virtual = 18170
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2157.848 ; gain = 670.215 ; free physical = 463 ; free virtual = 18162
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2157.848 ; gain = 670.215 ; free physical = 455 ; free virtual = 18154
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.660 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.660 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.660 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.660 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.660 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.660 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |     4|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     4|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.660 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 15 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.660 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+Synthesis Optimization Complete : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2319.668 ; gain = 832.027 ; free physical = 316 ; free virtual = 18015
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2333.535 ; gain = 0.000 ; free physical = 411 ; free virtual = 18110
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2430.098 ; gain = 0.000 ; free physical = 304 ; free virtual = 18003
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 706102fc
+INFO: [Common 17-83] Releasing license: Synthesis
+12 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 2430.098 ; gain = 945.438 ; free physical = 304 ; free virtual = 18003
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1687.844; main = 1687.844; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2430.102; main = 2430.102; forked = 0.000
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2454.109 ; gain = 0.000 ; free physical = 304 ; free virtual = 18003
+INFO: [Common 17-1381] The checkpoint '/home/lukas/fpga_vivado/projects/state_machine/state_machine.runs/synth_1/state_machine.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file state_machine_utilization_synth.rpt -pb state_machine_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Dec 20 14:07:33 2024...
