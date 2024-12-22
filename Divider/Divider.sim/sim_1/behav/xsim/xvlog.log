@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/Divider/MyHDL/src/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider_tb

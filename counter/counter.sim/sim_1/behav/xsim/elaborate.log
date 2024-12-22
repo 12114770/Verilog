@@ -7,8 +7,8 @@ Starting static elaboration
 Pass Through NonSizing Optimizer
 Completed static elaboration
 Starting simulation data flow analysis
-WARNING: [XSIM 43-4099] "/home/lukas/fpga_vivado/projects/counter/MyHDL/counter.v" Line 4. Module counter doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "/home/lukas/fpga_vivado/projects/counter/MyHDL/counter.v" Line 4. Module counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" Line 4. Module counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" Line 4. Module counter doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.counter
