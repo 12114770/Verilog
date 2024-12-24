@@ -1,27 +1,71 @@
-`timescale 1 ns / 10 ps
+`timescale 1ns / 10ps
+`ifndef VCDFILE
+`define VCDFILE "counter.vcd"
+`endif
 
-module divider_tb();
+// Define the myassert macro
+`define myassert(condition) \
+    assert (condition) else begin \
+        $error("Assertion failed: %s at %t", `"condition`", $time); \
+        $finish; \
+    end
+
+
+module Divider_tb();
 
 localparam CLK_PERIOD = 10;
 
 reg clk = 1'b0;
 reg rst = 1'b0;
-wire [31:0] count;
+reg [31:0] dividend;
+reg [31:0] divisor;
+wire [31:0] quotient;
 
-divider dut(
-    .clk    (clk),
-    .rst    (rst),
-    .count  (count)
+Divider dut(
+    .clk     (clk),
+    .rst     (rst),
+    .dividend(dividend),
+    .divisor (divisor),
+    .quotient(quotient)
 );
 
+
+always #5 clk = !clk;
+
+// Stimulate the design (vary input values)
 initial begin
-    clk = 1'b0;  // Clock is low at time 0
-    rst = 1'b1;  // Reset is high (asserted) at time 0
-    rst = #(CLK_PERIOD*10) 1'b0;  // Reset is low (de-asserted) after 10 clock periods
+
+    // Reset the DUT
+    #5  rst = 1;
+    #10 rst = 0;
+
+    #5 dividend = 1000;
+    #5 divisor = 10;
+    #5 rst = 1;
+    #5 rst = 0;
+    #5 dividend = 63;
+    #5 divisor = 7;
+
+    #1000 rst = 1;
+    #5 rst = 0;
+
+    $finish;
 end
 
-always begin
-    clk = #(CLK_PERIOD/2) ~clk;  // Pulse clock signal
+initial $monitor("At time %0t, value = %h (%0d)", $time, quotient, quotient);
+
+
+reg past_rst = 1;
+always @(posedge clk) begin
+    past_rst <= rst;
+end
+
+always @(posedge clk) begin
+  if (past_rst) begin
+    `myassert(quotient == 0);
+  end else if (!rst) begin
+    `myassert(quotient != 0);
+  end
 end
 
 endmodule

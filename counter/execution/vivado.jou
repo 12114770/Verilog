@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Sat Dec 21 20:15:15 2024
-# Process ID         : 77474
+# Start of session at: Mon Dec 23 15:45:09 2024
+# Process ID         : 400423
 # Current directory  : /home/lukas/fpga_vivado/projects/counter/execution
 # Command line       : vivado -mode batch -source ../tcl_scripts/run_simulation.tcl
 # Log file           : /home/lukas/fpga_vivado/projects/counter/execution/vivado.log
@@ -13,13 +13,13 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.1 LTS
 # Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
-# CPU Frequency      : 4341.222 MHz
+# CPU Frequency      : 4325.958 MHz
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
 # Host memory        : 24508 MB
 # Swap memory        : 8589 MB
 # Total Virtual      : 33098 MB
-# Available Virtual  : 24452 MB
+# Available Virtual  : 23418 MB
 #-----------------------------------------------------------
 source ../tcl_scripts/run_simulation.tcl
 source counter_tb.tcl

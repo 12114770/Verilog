@@ -1,4 +1,11 @@
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/Divider/MyHDL/src/divider.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Divider
 INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module divider_tb
+INFO: [VRFC 10-311] analyzing module Divider_tb
+ERROR: [VRFC 10-4982] syntax error near 'else' [/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v:65]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'else' used in incorrect context [/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v:65]
+WARNING: [VRFC 10-2096] empty statement in sequential block [/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v:65]
+ERROR: [VRFC 10-4982] syntax error near 'else' [/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v:68]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'else' used in incorrect context [/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v:68]
+WARNING: [VRFC 10-2096] empty statement in sequential block [/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v:68]
+ERROR: [VRFC 10-8530] module 'Divider_tb' is ignored due to previous errors [/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v:14]

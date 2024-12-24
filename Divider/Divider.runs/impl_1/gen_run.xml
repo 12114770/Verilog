@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcsg325-3" LaunchTime="1734835344">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg325-3" LaunchTime="1734868479">
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="Divider_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS" Name="Divider_routed.rqs"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="BG-BGN" Name="Divider.bgn"/>
-  <File Type="BITSTR-SYSDEF" Name="Divider.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Divider.ltx"/>
   <File Type="RBD_FILE" Name="Divider.rbd"/>
   <File Type="NPI_FILE" Name="Divider.npi"/>
   <File Type="RNPI_FILE" Name="Divider.rnpi"/>
@@ -15,75 +10,66 @@
   <File Type="RCFI_FILE" Name="Divider.rcfi"/>
   <File Type="PL-PDI-FILE" Name="Divider_pld.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="Divider_boot.pdi"/>
-  <File Type="RDI-RDI" Name="Divider.vdi"/>
-  <File Type="PDI-FILE" Name="Divider.pdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Divider_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Divider_postroute_physopt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Divider_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Divider_postplace_pwropt.dcp"/>
+  <File Type="PWROPT-DCP" Name="Divider_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Divider_placed.dcp"/>
+  <File Type="OPT-DCP" Name="Divider_opt.dcp"/>
+  <File Type="ROUTE-TIMING-PB" Name="Divider_timing_summary_routed.pb"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Divider_routed_bb.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Divider_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Divider_routed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Divider_incremental_reuse_pre_placed.rpt"/>
+  <File Type="OPT-HWDEF" Name="Divider.hwdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Divider.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Divider.sysdef"/>
   <File Type="BITSTR-MMI" Name="Divider.mmi"/>
   <File Type="BITSTR-BMM" Name="Divider_bd.bmm"/>
   <File Type="BITSTR-NKY" Name="Divider.nky"/>
   <File Type="BITSTR-RBT" Name="Divider.rbt"/>
-  <File Type="BITSTR-MSK" Name="Divider.msk"/>
-  <File Type="BG-BIN" Name="Divider.bin"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <File Type="BG-BIT" Name="Divider.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Divider_bus_skew_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Divider_bus_skew_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Divider_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Divider_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Divider_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Divider_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Divider_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Divider_postroute_physopt.dcp"/>
-  <File Type="BG-DRC" Name="Divider.drc"/>
-  <File Type="ROUTE-RQS-PB" Name="Divider_rqs_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="Divider_bus_skew_routed.rpx"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="Divider_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW" Name="Divider_bus_skew_routed.rpt"/>
-  <File Type="PA-TCL" Name="Divider.tcl"/>
-  <File Type="INIT-TIMING" Name="Divider_timing_summary_init.rpt"/>
-  <File Type="OPT-DCP" Name="Divider_opt.dcp"/>
-  <File Type="OPT-RQA-PB" Name="Divider_rqa_opted.pb"/>
-  <File Type="OPT-DRC" Name="Divider_drc_opted.rpt"/>
-  <File Type="PLACE-TIMING" Name="Divider_timing_summary_placed.rpt"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="Divider_methodology_drc_opted.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="Divider_utilization_placed.pb"/>
-  <File Type="OPT-HWDEF" Name="Divider.hwdef"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="Divider_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="REPORTS-TCL" Name="Divider_reports.tcl"/>
-  <File Type="OPT-TIMING" Name="Divider_timing_summary_opted.rpt"/>
-  <File Type="PWROPT-DCP" Name="Divider_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="Divider_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="Divider_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="Divider_placed.dcp"/>
-  <File Type="PLACE-RQA-PB" Name="Divider_rqa_placed.pb"/>
+  <File Type="PDI-FILE" Name="Divider.pdi"/>
+  <File Type="RDI-RDI" Name="Divider.vdi"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Divider_timing_summary_routed.rpt"/>
+  <File Type="BG-BIN" Name="Divider.bin"/>
   <File Type="PLACE-IO" Name="Divider_io_placed.rpt"/>
-  <File Type="PHYSOPT-TIMING" Name="Divider_timing_summary_physopted.rpt"/>
-  <File Type="PLACE-CLK" Name="Divider_clock_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="Divider_utilization_placed.rpt"/>
+  <File Type="OPT-DRC" Name="Divider_drc_opted.rpt"/>
   <File Type="PLACE-CTRL" Name="Divider_control_sets_placed.rpt"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="Divider_methodology_drc_routed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="Divider_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Divider_utilization_placed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Divider_timing_summary_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="Divider_reports.tcl"/>
+  <File Type="PA-TCL" Name="Divider.tcl"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Divider_methodology_drc_routed.pb"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="Divider_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DRC-RPX" Name="Divider_drc_routed.rpx"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Divider_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="Divider_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="Divider_drc_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="Divider_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="Divider_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Divider_routed_bb.dcp"/>
-  <File Type="ROUTE-DRC" Name="Divider_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Divider_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-DRC-PB" Name="Divider_drc_routed.pb"/>
-  <File Type="ROUTE-PWR" Name="Divider_power_routed.rpt"/>
-  <File Type="ROUTE-PWR-SUM" Name="Divider_power_summary_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="Divider_power_routed.rpx"/>
+  <File Type="BG-BGN" Name="Divider.bgn"/>
+  <File Type="PLACE-UTIL" Name="Divider_utilization_placed.rpt"/>
   <File Type="ROUTE-STATUS" Name="Divider_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="Divider_route_status.pb"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="Divider_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="Divider_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="Divider_timing_summary_routed.rpx"/>
+  <File Type="BG-DRC" Name="Divider.drc"/>
+  <File Type="ROUTE-PWR" Name="Divider_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Divider_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Divider_power_summary_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Divider_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Divider_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Divider_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Divider_drc_routed.pb"/>
   <File Type="ROUTE-SIMILARITY" Name="Divider_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="Divider_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Divider_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Divider_bus_skew_routed.rpx"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Divider_bus_skew_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="Divider.msk"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Divider_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Divider_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Divider_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Divider_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Divider_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Divider_bus_skew_postroute_physopted.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/MyHDL/src/divider.v">
@@ -106,6 +92,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Divider.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
@@ -121,5 +115,6 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>

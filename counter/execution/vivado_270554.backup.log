@@ -1,0 +1,474 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Dec 22 19:19:14 2024
+# Process ID         : 270554
+# Current directory  : /home/lukas/fpga_vivado/projects/counter/execution
+# Command line       : vivado
+# Log file           : /home/lukas/fpga_vivado/projects/counter/execution/vivado.log
+# Journal file       : /home/lukas/fpga_vivado/projects/counter/execution/vivado.jou
+# Running On         : LukasDell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.1 LTS
+# Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
+# CPU Frequency      : 3473.106 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 24508 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 33098 MB
+# Available Virtual  : 26515 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/lukas/fpga_vivado/projects/counter/counter.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:emb-plus-vpr-4616:part0:1.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/emb-plus-vpr-4616/1.0/board.xml as part xcve2302-sfva784-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.3 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.3/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.1 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.2/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.2/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.2 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.2/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /home/lukas/fpga_vivado/Vivado/2024.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/home/lukas/fpga_vivado/projects/counter/counter.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/lukas/fpga_vivado/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 7918.070 ; gain = 282.867 ; free physical = 8827 ; free virtual = 24279
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+set_property source_mgmt_mode DisplayOnly [current_project]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'counter_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/lukas/fpga_vivado/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj counter_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v" into library xil_defaultlib
+ERROR: [VRFC 10-4982] syntax error near 'end' [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:11]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'end' used in incorrect context [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:11]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'counter_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/home/lukas/fpga_vivado/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj counter_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_tb
+ERROR: [VRFC 10-4982] syntax error near ''' [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:46]
+ERROR: [VRFC 10-4982] syntax error near ''' [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:47]
+ERROR: [VRFC 10-4982] syntax error near ''' [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:48]
+ERROR: [VRFC 10-4982] syntax error near 'else' [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:56]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'else' used in incorrect context [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:56]
+WARNING: [VRFC 10-2096] empty statement in sequential block [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:56]
+ERROR: [VRFC 10-4982] syntax error near 'else' [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:58]
+ERROR: [VRFC 10-8549] Verilog 2000 keyword 'else' used in incorrect context [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:58]
+WARNING: [VRFC 10-2096] empty statement in sequential block [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:58]
+ERROR: [VRFC 10-2989] 'past_cnt' is not declared [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:50]
+ERROR: [VRFC 10-2989] 'past_rst' is not declared [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:51]
+ERROR: [VRFC 10-2989] 'past_rst' is not declared [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:55]
+ERROR: [VRFC 10-8530] module 'counter_tb' is ignored due to previous errors [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:14]
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+create_fileset -simset sim_2
+set_property SOURCE_SET sources_1 [get_filesets sim_2]
+add_files -fileset sim_2 -norecurse /home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+current_fileset -simset [ get_filesets sim_2 ]
+set_property top counter_tb [get_filesets sim_2]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'counter_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from '/home/lukas/fpga_vivado/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+xvlog --incr --relax -L uvm -prj counter_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_tb_behav xil_defaultlib.counter_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/lukas/fpga_vivado/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_tb_behav xil_defaultlib.counter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-2989] 'cnt' is not declared [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:43]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'counter_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from '/home/lukas/fpga_vivado/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+xvlog --incr --relax -L uvm -prj counter_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_tb
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_tb_behav xil_defaultlib.counter_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/lukas/fpga_vivado/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_tb_behav xil_defaultlib.counter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" Line 4. Module counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" Line 4. Module counter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.counter_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "counter_tb_behav -key {Behavioral:sim_2:Functional:counter_tb} -tclbatch {counter_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source counter_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time 0, value = xxxxxxxx (x)
+At time 5000, value = 00000000 (0)
+At time 15000, value = 00000002 (2)
+Error: Assertion failed: count == past_cnt + 1 at                25000
+Time: 25 ns  Iteration: 0  Process: /counter_tb/Always54_5  Scope: counter_tb  File: /home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv Line: 58
+$finish called at time : 25 ns : File "/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv" Line 58
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'counter_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv:]
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation -simset [get_filesets sim_2 ]
+Command: launch_simulation  -simset sim_2
+INFO: [Vivado 12-12493] Simulation top is 'counter_tb'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_2'
+INFO: [SIM-utils-72] Using boost library from '/home/lukas/fpga_vivado/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'counter_tb' in fileset 'sim_2'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_2'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+xvlog --incr --relax -L uvm -prj counter_tb_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_tb_behav xil_defaultlib.counter_tb xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /home/lukas/fpga_vivado/Vivado/2024.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot counter_tb_behav xil_defaultlib.counter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" Line 4. Module counter doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v" Line 4. Module counter doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.counter_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter_tb_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "counter_tb_behav -key {Behavioral:sim_2:Functional:counter_tb} -tclbatch {counter_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source counter_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+At time 0, value = xxxxxxxx (x)
+At time 5000, value = 00000000 (0)
+At time 15000, value = 00000001 (1)
+At time 25000, value = 00000002 (2)
+At time 35000, value = 00000003 (3)
+At time 45000, value = 00000004 (4)
+At time 55000, value = 00000005 (5)
+At time 65000, value = 00000006 (6)
+At time 75000, value = 00000007 (7)
+At time 85000, value = 00000008 (8)
+At time 95000, value = 00000009 (9)
+At time 105000, value = 0000000a (10)
+At time 115000, value = 0000000b (11)
+At time 125000, value = 0000000c (12)
+At time 135000, value = 0000000d (13)
+At time 145000, value = 0000000e (14)
+At time 155000, value = 0000000f (15)
+At time 165000, value = 00000010 (16)
+At time 175000, value = 00000011 (17)
+At time 185000, value = 00000012 (18)
+At time 195000, value = 00000013 (19)
+At time 205000, value = 00000014 (20)
+At time 215000, value = 00000015 (21)
+At time 225000, value = 00000016 (22)
+At time 235000, value = 00000017 (23)
+At time 245000, value = 00000018 (24)
+At time 255000, value = 00000019 (25)
+At time 265000, value = 0000001a (26)
+At time 275000, value = 0000001b (27)
+At time 285000, value = 0000001c (28)
+At time 295000, value = 0000001d (29)
+At time 305000, value = 0000001e (30)
+At time 315000, value = 0000001f (31)
+At time 325000, value = 00000020 (32)
+At time 335000, value = 00000021 (33)
+At time 345000, value = 00000022 (34)
+At time 355000, value = 00000023 (35)
+At time 365000, value = 00000024 (36)
+At time 375000, value = 00000025 (37)
+At time 385000, value = 00000026 (38)
+At time 395000, value = 00000027 (39)
+At time 405000, value = 00000028 (40)
+At time 415000, value = 00000029 (41)
+At time 425000, value = 0000002a (42)
+At time 435000, value = 0000002b (43)
+At time 445000, value = 0000002c (44)
+At time 455000, value = 0000002d (45)
+At time 465000, value = 0000002e (46)
+At time 475000, value = 0000002f (47)
+At time 485000, value = 00000030 (48)
+At time 495000, value = 00000031 (49)
+At time 505000, value = 00000032 (50)
+At time 515000, value = 00000033 (51)
+At time 525000, value = 00000034 (52)
+At time 535000, value = 00000035 (53)
+At time 545000, value = 00000036 (54)
+At time 555000, value = 00000037 (55)
+At time 565000, value = 00000038 (56)
+At time 575000, value = 00000039 (57)
+At time 585000, value = 0000003a (58)
+At time 595000, value = 0000003b (59)
+At time 605000, value = 0000003c (60)
+At time 615000, value = 0000003d (61)
+At time 625000, value = 0000003e (62)
+At time 635000, value = 0000003f (63)
+At time 645000, value = 00000040 (64)
+At time 655000, value = 00000041 (65)
+At time 665000, value = 00000042 (66)
+At time 675000, value = 00000043 (67)
+At time 685000, value = 00000044 (68)
+At time 695000, value = 00000045 (69)
+At time 705000, value = 00000046 (70)
+At time 715000, value = 00000047 (71)
+At time 725000, value = 00000048 (72)
+At time 735000, value = 00000049 (73)
+At time 745000, value = 0000004a (74)
+At time 755000, value = 0000004b (75)
+At time 765000, value = 0000004c (76)
+At time 775000, value = 0000004d (77)
+At time 785000, value = 0000004e (78)
+At time 795000, value = 0000004f (79)
+At time 805000, value = 00000050 (80)
+At time 815000, value = 00000051 (81)
+At time 825000, value = 00000052 (82)
+At time 835000, value = 00000053 (83)
+At time 845000, value = 00000054 (84)
+At time 855000, value = 00000055 (85)
+At time 865000, value = 00000056 (86)
+At time 875000, value = 00000057 (87)
+At time 885000, value = 00000058 (88)
+At time 895000, value = 00000059 (89)
+At time 905000, value = 0000005a (90)
+At time 915000, value = 0000005b (91)
+At time 925000, value = 0000005c (92)
+At time 935000, value = 0000005d (93)
+At time 945000, value = 0000005e (94)
+At time 955000, value = 0000005f (95)
+At time 965000, value = 00000060 (96)
+At time 975000, value = 00000061 (97)
+At time 985000, value = 00000062 (98)
+At time 995000, value = 00000063 (99)
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'counter_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns

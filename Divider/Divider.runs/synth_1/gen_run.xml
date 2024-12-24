@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcsg325-3" LaunchTime="1734835312">
-  <File Type="VDS-TIMINGSUMMARY" Name="Divider_timing_summary_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcsg325-3" LaunchTime="1734868442" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Divider.dcp">
   <File Type="RDS-DCP" Name="Divider.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="Divider_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="Divider_utilization_synth.rpt"/>
-  <File Type="RDS-PROPCONSTRS" Name="Divider_drc_synth.rpt"/>
   <File Type="RDS-RDS" Name="Divider.vds"/>
   <File Type="REPORTS-TCL" Name="Divider_reports.tcl"/>
-  <File Type="VDS-TIMING-PB" Name="Divider_timing_summary_synth.pb"/>
   <File Type="PA-TCL" Name="Divider.tcl"/>
+  <File Type="RDS-UTIL" Name="Divider_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Divider_utilization_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/MyHDL/src/divider.v">
@@ -31,6 +28,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Divider.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>

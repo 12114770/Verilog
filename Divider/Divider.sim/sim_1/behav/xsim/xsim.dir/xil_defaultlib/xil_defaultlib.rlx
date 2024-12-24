@@ -3,5 +3,5 @@
 Nov  8 2024
 22:36:55
 /home/lukas/fpga_vivado/projects/Divider/Divider.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
-/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v,1734835354,verilog,,/home/lukas/fpga_vivado/projects/Divider/MyHDL/src/divider.v,,divider_tb,,,,,,,,
-/home/lukas/fpga_vivado/projects/Divider/MyHDL/src/divider.v,1734809196,verilog,,/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v,,Divider,,,,,,,,
+/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v,1734965358,verilog,,,,Divider_tb,,,,,,,,
+/home/lukas/fpga_vivado/projects/Divider/MyHDL/src/divider.v,1734964156,verilog,,/home/lukas/fpga_vivado/projects/Divider/MyHDL/sim/divider_tb.v,,Divider,,,,,,,,

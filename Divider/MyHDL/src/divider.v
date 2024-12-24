@@ -15,7 +15,7 @@ begin
     if (rst) begin
         quotient <= 0;
     end else begin
-        quotient <= dividend / divisor;
+        quotient <= dividend/divisor;
     end
 end
 endmodule

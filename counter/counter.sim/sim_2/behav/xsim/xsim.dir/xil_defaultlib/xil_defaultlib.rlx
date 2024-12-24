@@ -1,0 +1,7 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v,1734892334,verilog,,,,counter,,uvm,,,,,,
+/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/tb_counter.sv,1734892308,systemVerilog,,,,counter_tb,,uvm,,,,,,
+/home/lukas/fpga_vivado/projects/counter/counter.sim/sim_2/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,

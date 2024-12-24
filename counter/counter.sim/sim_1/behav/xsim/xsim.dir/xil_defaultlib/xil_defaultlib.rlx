@@ -2,6 +2,6 @@
 2020.2
 Nov  8 2024
 22:36:55
-/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v,1734835807,verilog,,/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v,,counter,,,,,,,,
-/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v,1734559302,verilog,,,,counter_tb,,,,,,,,
+/home/lukas/fpga_vivado/projects/counter/MyHDL/hdl/counter.v,1734891451,verilog,,/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v,,counter,,,,,,,,
+/home/lukas/fpga_vivado/projects/counter/MyHDL/testbenches/counter_tb.v,1734869927,verilog,,,,counter_tb,,,,,,,,
 /home/lukas/fpga_vivado/projects/counter/counter.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,

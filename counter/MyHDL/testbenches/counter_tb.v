@@ -1,5 +1,16 @@
 `timescale 1 ns / 10 ps
 
+`ifndef VCDFILE
+`define VCDFILE "counter.vcd"
+`endif
+
+// Define the myassert macro
+`define myassert(condition) \
+    assert (condition) else begin \
+        $error("Assertion failed: %s at %t", `"condition`", $time); \
+        $finish; \
+    end
+
 module counter_tb();
 
 localparam CLK_PERIOD = 10;
@@ -14,14 +25,39 @@ counter counter_inst(
     .count  (count)
 );
 
+always #5 clk = !clk;
+
+// Stimulate the design (vary input values)
 initial begin
-    clk = 1'b0;  // Clock is low at time 0
-    rst = 1'b1;  // Reset is high (asserted) at time 0
-    rst = #(CLK_PERIOD*10) 1'b0;  // Reset is low (de-asserted) after 10 clock periods
+
+    // Reset the DUT
+    #5  rst = 1;
+    #10 rst = 0;
+
+    #1000 rst = 1;
+    #5 rst = 0;
+
+    $finish;
 end
 
-always begin
-    clk = #(CLK_PERIOD/2) ~clk;  // Pulse clock signal
+initial $monitor("At time %0t, value = %h (%0d)", $time, cnt, cnt);
+
+// Store past values of signals rst, mode, and cnt
+reg signed [9:0] past_cnt = 'x;
+reg past_mode = 'x;
+reg past_rst = 'x;
+always @(posedge clk) begin
+    past_cnt <= cnt;
+    past_rst <= rst;
+end
+
+always @(posedge clk) begin
+    if(past_rst) begin
+        `myassert(cnt == 0);
+    end else begin if (!rst) begin
+        `myassert (cnt == past_cnt + 1); 
+    end
+    end
 end
 
 endmodule
