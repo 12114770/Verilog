@@ -1,0 +1,9 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,uvm,,,,,,
+/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.srcs/sim_1/new/trafficlight_tb.sv,1735854572,systemVerilog,,,,trafficlight_tb,,uvm,,,,,,
+/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.srcs/sources_1/new/counter.v,1735851769,verilog,,/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.srcs/sources_1/new/lightcontrol.v,,counter,,uvm,,,,,,
+/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.srcs/sources_1/new/lightcontrol.v,1735853364,verilog,,/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.srcs/sources_1/new/trafficlight.v,,light_control,,uvm,,,,,,
+/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.srcs/sources_1/new/trafficlight.v,1735853508,verilog,,,,trafficlight,,uvm,,,,,,

@@ -120,6 +120,7 @@ OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
   add_files -quiet /home/lukas/fpga_vivado/projects/Divider/Divider.runs/synth_1/Divider.dcp
 OPTRACE "read constraints: implementation" START { }
+  read_xdc /home/lukas/fpga_vivado/projects/Divider/Divider.srcs/constrs_1/new/clk_constraint.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "read constraints: implementation_pre" START { }
 OPTRACE "read constraints: implementation_pre" END { }
