@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Jan  8 16:41:40 2025
+# Process ID         : 162506
+# Current directory  : /home/lukas/fpga_vivado/projects/trafficlights/trafficlights.runs/ila_1_synth_1
+# Command line       : vivado -log ila_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ila_1.tcl
+# Log file           : /home/lukas/fpga_vivado/projects/trafficlights/trafficlights.runs/ila_1_synth_1/ila_1.vds
+# Journal file       : /home/lukas/fpga_vivado/projects/trafficlights/trafficlights.runs/ila_1_synth_1/vivado.jou
+# Running On         : LukasDell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.1 LTS
+# Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
+# CPU Frequency      : 4348.713 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 24508 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 33098 MB
+# Available Virtual  : 22645 MB
+#-----------------------------------------------------------
+source ila_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1511.918 ; gain = 39.840 ; free physical = 4511 ; free virtual = 21122
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: ila_1
+Command: synth_design -top ila_1 -part xc7a35tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 162612
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 2139.828 ; gain = 418.797 ; free physical = 3617 ; free virtual = 20231
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-5809] Error generated from encrypted envelope. [/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.gen/sources_1/ip/ila_1/hdl/xsdbs_v1_0_vl_rfs.v:656]
+ERROR: [Synth 8-5809] Error generated from encrypted envelope. [/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.gen/sources_1/ip/ila_1/hdl/xsdbs_v1_0_vl_rfs.v:656]
+INFO: [Synth 8-9084] Verilog file '/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.gen/sources_1/ip/ila_1/hdl/xsdbs_v1_0_vl_rfs.v' ignored due to errors
+ERROR: [Synth 8-12188] Failed to read verilog '/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.gen/sources_1/ip/ila_1/hdl/xsdbs_v1_0_vl_rfs.v'
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2209.766 ; gain = 488.734 ; free physical = 3516 ; free virtual = 20139
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+8 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Wed Jan  8 16:41:57 2025...

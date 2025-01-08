@@ -22,12 +22,12 @@
 module trafficlight(
     input clk,
     input rst,
-    output wire light1_green,
-    output wire light1_yellow,
-    output wire light1_red,
-    output wire light2_green,
-    output wire light2_yellow,
-    output wire light2_red
+    output light1_green,
+    output light1_yellow,
+    output light1_red,
+    output light2_green,
+    output light2_yellow,
+    output light2_red
 );
     parameter time_red = 10;
     parameter time_yellow = 12;
