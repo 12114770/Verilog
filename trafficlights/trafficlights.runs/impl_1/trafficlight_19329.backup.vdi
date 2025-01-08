@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Wed Jan  8 17:05:54 2025
+# Process ID         : 19329
+# Current directory  : /home/lukas/fpga_vivado/projects/trafficlights/trafficlights.runs/impl_1
+# Command line       : vivado -log trafficlight.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source trafficlight.tcl -notrace
+# Log file           : /home/lukas/fpga_vivado/projects/trafficlights/trafficlights.runs/impl_1/trafficlight.vdi
+# Journal file       : /home/lukas/fpga_vivado/projects/trafficlights/trafficlights.runs/impl_1/vivado.jou
+# Running On         : LukasDell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.1 LTS
+# Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
+# CPU Frequency      : 3856.637 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 24508 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 33098 MB
+# Available Virtual  : 27923 MB
+#-----------------------------------------------------------
+source trafficlight.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1511.949 ; gain = 44.840 ; free physical = 12778 ; free virtual = 26161
+Command: link_design -top trafficlight -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1698.051 ; gain = 0.000 ; free physical = 12586 ; free virtual = 25971
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.srcs/constrs_1/new/artix-7constr.xdc]
+Finished Parsing XDC File [/home/lukas/fpga_vivado/projects/trafficlights/trafficlights.srcs/constrs_1/new/artix-7constr.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1915.641 ; gain = 0.000 ; free physical = 12490 ; free virtual = 25877
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:00.79 . Memory (MB): peak = 2077.609 ; gain = 159.000 ; free physical = 12390 ; free virtual = 25777
+
+Starting Cache Timing Information Task
