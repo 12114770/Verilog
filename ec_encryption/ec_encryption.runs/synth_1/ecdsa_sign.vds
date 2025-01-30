@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Sun Jan 26 21:44:50 2025
+# Process ID         : 74968
+# Current directory  : /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/synth_1
+# Command line       : vivado -log ecdsa_sign.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ecdsa_sign.tcl
+# Log file           : /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/synth_1/ecdsa_sign.vds
+# Journal file       : /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/synth_1/vivado.jou
+# Running On         : LukasDell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.1 LTS
+# Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
+# CPU Frequency      : 4341.280 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 24508 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 33098 MB
+# Available Virtual  : 26690 MB
+#-----------------------------------------------------------
+source ecdsa_sign.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1512.664 ; gain = 76.840 ; free physical = 8838 ; free virtual = 24984
+Command: synth_design -top ecdsa_sign -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 7 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 75017
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1959.371 ; gain = 443.730 ; free physical = 8070 ; free virtual = 24222
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ecdsa_sign' [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/ecdsa_sign.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_256' [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/reg_256.sv:1]
+	Parameter size bound to: 512 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_256' (0#1) [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/reg_256.sv:1]
+INFO: [Synth 8-6157] synthesizing module 'ecdsa_sign_datapath' [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/ecdsa_sign_datapath.sv:3]
+INFO: [Synth 8-6157] synthesizing module 'reg_256__parameterized0' [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/reg_256.sv:1]
+INFO: [Synth 8-6155] done synthesizing module 'reg_256__parameterized0' (0#1) [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/reg_256.sv:1]
+ERROR: [Synth 8-439] module 'sha256_H_0' not found [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/ecdsa_sign_datapath.sv:52]
+ERROR: [Synth 8-6156] failed synthesizing module 'ecdsa_sign_datapath' [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/ecdsa_sign_datapath.sv:3]
+ERROR: [Synth 8-6156] failed synthesizing module 'ecdsa_sign' [/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.srcs/sources_1/new/ecdsa_sign.sv:3]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2030.309 ; gain = 514.668 ; free physical = 7988 ; free virtual = 24141
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+11 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 26 21:45:02 2025...
