@@ -1,45 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1737924288">
-  <File Type="VDS-TIMINGSUMMARY" Name="ecdsa_sign_timing_summary_synth.rpt"/>
-  <File Type="RDS-DCP" Name="ecdsa_sign.dcp"/>
-  <File Type="RDS-UTIL-PB" Name="ecdsa_sign_utilization_synth.pb"/>
-  <File Type="RDS-UTIL" Name="ecdsa_sign_utilization_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="ecdsa_sign_timing_summary_synth.pb"/>
-  <File Type="PA-TCL" Name="ecdsa_sign.tcl"/>
-  <File Type="REPORTS-TCL" Name="ecdsa_sign_reports.tcl"/>
-  <File Type="RDS-RDS" Name="ecdsa_sign.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="ecdsa_sign_drc_synth.rpt"/>
+<GenRun Id="synth_1" LaunchPart="xck26-sfvc784-2LVI-i" LaunchTime="1740058106" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/tb_sha256.dcp">
+  <File Type="VDS-TIMINGSUMMARY" Name="sha256_timing_summary_synth.rpt"/>
+  <File Type="RDS-DCP" Name="sha256.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="sha256_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="sha256_utilization_synth.rpt"/>
+  <File Type="RDS-PROPCONSTRS" Name="sha256_drc_synth.rpt"/>
+  <File Type="RDS-RDS" Name="sha256.vds"/>
+  <File Type="REPORTS-TCL" Name="sha256_reports.tcl"/>
+  <File Type="VDS-TIMING-PB" Name="sha256_timing_summary_synth.pb"/>
+  <File Type="PA-TCL" Name="sha256.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
-    <File Path="$PSRCDIR/sources_1/new/elliptic_curve_structs.sv">
+    <File Path="$PSRCDIR/sources_1/new/sha_engine.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/new/ecdsa_sign_control.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/ecdsa_sign_datapath.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/reg_256.sv">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/new/ecdsa_sign.sv">
+    <File Path="$PSRCDIR/sources_1/new/sha256.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -48,7 +27,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="ecdsa_sign"/>
+      <Option Name="TopModule" Val="sha256"/>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
@@ -60,6 +39,15 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/tb_sha256.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="UsedInSteps" Val="synth_1_copy_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>

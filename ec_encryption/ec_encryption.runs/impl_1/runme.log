@@ -1,0 +1,531 @@
+
+*** Running vivado
+    with args -log sha256.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source sha256.tcl -notrace
+
+
+****** Vivado v2024.2 (64-bit)
+  **** SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+  **** IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+  **** SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+  **** Start of session at: Thu Feb 20 14:28:57 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source sha256.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1511.949 ; gain = 44.840 ; free physical = 7955 ; free virtual = 17821
+Command: link_design -top sha256 -part xck26-sfvc784-2LVI-i
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xck26-sfvc784-2LVI-i
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2521.684 ; gain = 0.000 ; free physical = 6913 ; free virtual = 16779
+INFO: [Netlist 29-17] Analyzing 95 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Read ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2521.684 ; gain = 0.000 ; free physical = 6913 ; free virtual = 16779
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2723.863 ; gain = 0.000 ; free physical = 6712 ; free virtual = 16578
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 36 instances were transformed.
+  IBUF => IBUF (IBUFCTRL, INBUF): 4 instances
+  RAM64M8 => RAM64M8 (RAMD64E(x8)): 32 instances
+
+6 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2723.863 ; gain = 1211.914 ; free physical = 6712 ; free virtual = 16578
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.44 . Memory (MB): peak = 2939.793 ; gain = 215.930 ; free physical = 6648 ; free virtual = 16515
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 1ea2716b1
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3230.938 ; gain = 291.145 ; free physical = 6410 ; free virtual = 16315
+
+Starting Logic Optimization Task
+
+Phase 1 Initialization
+
+Phase 1.1 Core Generation And Design Setup
+Phase 1.1 Core Generation And Design Setup | Checksum: 1ea2716b1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6089 ; free virtual = 15994
+
+Phase 1.2 Setup Constraints And Sort Netlist
+Phase 1.2 Setup Constraints And Sort Netlist | Checksum: 1ea2716b1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6089 ; free virtual = 15994
+Phase 1 Initialization | Checksum: 1ea2716b1
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6089 ; free virtual = 15994
+
+Phase 2 Timer Update And Timing Data Collection
+
+Phase 2.1 Timer Update
+Phase 2.1 Timer Update | Checksum: 1ea2716b1
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.02 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6089 ; free virtual = 15994
+
+Phase 2.2 Timing Data Collection
+Phase 2.2 Timing Data Collection | Checksum: 1ea2716b1
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6089 ; free virtual = 15994
+Phase 2 Timer Update And Timing Data Collection | Checksum: 1ea2716b1
+
+Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.03 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6089 ; free virtual = 15994
+
+Phase 3 Retarget
+INFO: [Opt 31-1851] Number of loadless carry chains removed were: 0
+INFO: [Opt 31-1834] Total Chains To Be Transformed Were: 0 AND Number of Transformed insts Created are: 0
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 3 Retarget | Checksum: 24a71e6ef
+
+Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.07 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6089 ; free virtual = 15994
+Retarget | Checksum: 24a71e6ef
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 4 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 4 Constant propagation | Checksum: 1ae9991a6
+
+Time (s): cpu = 00:00:00.1 ; elapsed = 00:00:00.08 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6089 ; free virtual = 15994
+Constant propagation | Checksum: 1ae9991a6
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 5 Sweep
+INFO: [Constraints 18-11670] Building netlist checker database with flags, 0x8
+Done building netlist checker database: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6085 ; free virtual = 15990
+Phase 5 Sweep | Checksum: 1e64a5d6c
+
+Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.1 . Memory (MB): peak = 3560.742 ; gain = 0.000 ; free physical = 6085 ; free virtual = 15990
+Sweep | Checksum: 1e64a5d6c
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 6 BUFG optimization
+INFO: [Opt 31-1077] Phase BUFG optimization inserted 0 global clock buffer(s) for CLOCK_LOW_FANOUT.
+Phase 6 BUFG optimization | Checksum: 1e64a5d6c
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.11 . Memory (MB): peak = 3592.758 ; gain = 32.016 ; free physical = 6086 ; free virtual = 15991
+BUFG optimization | Checksum: 1e64a5d6c
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 7 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 7 Shift Register Optimization | Checksum: 1e64a5d6c
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.12 . Memory (MB): peak = 3592.758 ; gain = 32.016 ; free physical = 6086 ; free virtual = 15991
+Shift Register Optimization | Checksum: 1e64a5d6c
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 8 Post Processing Netlist
+Phase 8 Post Processing Netlist | Checksum: 1e64a5d6c
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.12 . Memory (MB): peak = 3592.758 ; gain = 32.016 ; free physical = 6085 ; free virtual = 15990
+Post Processing Netlist | Checksum: 1e64a5d6c
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Phase 9 Finalization
+
+Phase 9.1 Finalizing Design Cores and Updating Shapes
+Phase 9.1 Finalizing Design Cores and Updating Shapes | Checksum: 228286f70
+
+Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3616.770 ; gain = 56.027 ; free physical = 6085 ; free virtual = 15990
+
+Phase 9.2 Verifying Netlist Connectivity
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3616.770 ; gain = 0.000 ; free physical = 6085 ; free virtual = 15990
+Phase 9.2 Verifying Netlist Connectivity | Checksum: 228286f70
+
+Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3616.770 ; gain = 56.027 ; free physical = 6085 ; free virtual = 15990
+Phase 9 Finalization | Checksum: 228286f70
+
+Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3616.770 ; gain = 56.027 ; free physical = 6085 ; free virtual = 15990
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+Ending Logic Optimization Task | Checksum: 228286f70
+
+Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.17 . Memory (MB): peak = 3616.770 ; gain = 56.027 ; free physical = 6085 ; free virtual = 15990
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 228286f70
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3616.770 ; gain = 0.000 ; free physical = 6085 ; free virtual = 15990
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 228286f70
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3616.770 ; gain = 0.000 ; free physical = 6085 ; free virtual = 15990
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3616.770 ; gain = 0.000 ; free physical = 6085 ; free virtual = 15990
+Ending Netlist Obfuscation Task | Checksum: 228286f70
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3616.770 ; gain = 0.000 ; free physical = 6085 ; free virtual = 15990
+INFO: [Common 17-83] Releasing license: Implementation
+27 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+INFO: [Vivado 12-24828] Executing command : report_drc -file sha256_drc_opted.rpt -pb sha256_drc_opted.pb -rpx sha256_drc_opted.rpx
+Command: report_drc -file sha256_drc_opted.rpt -pb sha256_drc_opted.pb -rpx sha256_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/lukas/fpga_vivado/Vivado/2024.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 2-168] The results of DRC are in file /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/impl_1/sha256_drc_opted.rpt.
+report_drc completed successfully
+Write ShapeDB Complete: Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 3767.090 ; gain = 0.000 ; free physical = 6124 ; free virtual = 15888
+INFO: [Common 17-1381] The checkpoint '/home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/impl_1/sha256_opt.dcp' has been generated.
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xck26'
+INFO: [Common 17-83] Releasing license: Implementation
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Starting Placer Task
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3769.473 ; gain = 0.000 ; free physical = 6058 ; free virtual = 15823
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 14d60ce0c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3769.473 ; gain = 0.000 ; free physical = 6058 ; free virtual = 15823
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3769.473 ; gain = 0.000 ; free physical = 6058 ; free virtual = 15823
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced IO Ports (261) is greater than number of available pins (189).
+The following are banks with available pins: 
+ IO Group: 1 with : SioStd: LVCMOS18   VCCO = 1.8 Termination: 0  TermDir:  Out  RangeId: 2 Drv: 12  has only 189 sites available on device, but needs 258 sites.
+	Term: hash_data[0]
+	Term: hash_data[1]
+	Term: hash_data[2]
+	Term: hash_data[3]
+	Term: hash_data[4]
+	Term: hash_data[5]
+	Term: hash_data[6]
+	Term: hash_data[7]
+	Term: hash_data[8]
+	Term: hash_data[9]
+	Term: hash_data[10]
+	Term: hash_data[11]
+	Term: hash_data[12]
+	Term: hash_data[13]
+	Term: hash_data[14]
+	Term: hash_data[15]
+	Term: hash_data[16]
+	Term: hash_data[17]
+	Term: hash_data[18]
+	Term: hash_data[19]
+	Term: hash_data[20]
+	Term: hash_data[21]
+	Term: hash_data[22]
+	Term: hash_data[23]
+	Term: hash_data[24]
+	Term: hash_data[25]
+	Term: hash_data[26]
+	Term: hash_data[27]
+	Term: hash_data[28]
+	Term: hash_data[29]
+	Term: hash_data[30]
+	Term: hash_data[31]
+	Term: hash_data[32]
+	Term: hash_data[33]
+	Term: hash_data[34]
+	Term: hash_data[35]
+	Term: hash_data[36]
+	Term: hash_data[37]
+	Term: hash_data[38]
+	Term: hash_data[39]
+	Term: hash_data[40]
+	Term: hash_data[41]
+	Term: hash_data[42]
+	Term: hash_data[43]
+	Term: hash_data[44]
+	Term: hash_data[45]
+	Term: hash_data[46]
+	Term: hash_data[47]
+	Term: hash_data[48]
+	Term: hash_data[49]
+	Term: hash_data[50]
+	Term: hash_data[51]
+	Term: hash_data[52]
+	Term: hash_data[53]
+	Term: hash_data[54]
+	Term: hash_data[55]
+	Term: hash_data[56]
+	Term: hash_data[57]
+	Term: hash_data[58]
+	Term: hash_data[59]
+	Term: hash_data[60]
+	Term: hash_data[61]
+	Term: hash_data[62]
+	Term: hash_data[63]
+	Term: hash_data[64]
+	Term: hash_data[65]
+	Term: hash_data[66]
+	Term: hash_data[67]
+	Term: hash_data[68]
+	Term: hash_data[69]
+	Term: hash_data[70]
+	Term: hash_data[71]
+	Term: hash_data[72]
+	Term: hash_data[73]
+	Term: hash_data[74]
+	Term: hash_data[75]
+	Term: hash_data[76]
+	Term: hash_data[77]
+	Term: hash_data[78]
+	Term: hash_data[79]
+	Term: hash_data[80]
+	Term: hash_data[81]
+	Term: hash_data[82]
+	Term: hash_data[83]
+	Term: hash_data[84]
+	Term: hash_data[85]
+	Term: hash_data[86]
+	Term: hash_data[87]
+	Term: hash_data[88]
+	Term: hash_data[89]
+	Term: hash_data[90]
+	Term: hash_data[91]
+	Term: hash_data[92]
+	Term: hash_data[93]
+	Term: hash_data[94]
+	Term: hash_data[95]
+	Term: hash_data[96]
+	Term: hash_data[97]
+	Term: hash_data[98]
+	Term: hash_data[99]
+	Term: hash_data[100]
+	Term: hash_data[101]
+	Term: hash_data[102]
+	Term: hash_data[103]
+	Term: hash_data[104]
+	Term: hash_data[105]
+	Term: hash_data[106]
+	Term: hash_data[107]
+	Term: hash_data[108]
+	Term: hash_data[109]
+	Term: hash_data[110]
+	Term: hash_data[111]
+	Term: hash_data[112]
+	Term: hash_data[113]
+	Term: hash_data[114]
+	Term: hash_data[115]
+	Term: hash_data[116]
+	Term: hash_data[117]
+	Term: hash_data[118]
+	Term: hash_data[119]
+	Term: hash_data[120]
+	Term: hash_data[121]
+	Term: hash_data[122]
+	Term: hash_data[123]
+	Term: hash_data[124]
+	Term: hash_data[125]
+	Term: hash_data[126]
+	Term: hash_data[127]
+	Term: hash_data[128]
+	Term: hash_data[129]
+	Term: hash_data[130]
+	Term: hash_data[131]
+	Term: hash_data[132]
+	Term: hash_data[133]
+	Term: hash_data[134]
+	Term: hash_data[135]
+	Term: hash_data[136]
+	Term: hash_data[137]
+	Term: hash_data[138]
+	Term: hash_data[139]
+	Term: hash_data[140]
+	Term: hash_data[141]
+	Term: hash_data[142]
+	Term: hash_data[143]
+	Term: hash_data[144]
+	Term: hash_data[145]
+	Term: hash_data[146]
+	Term: hash_data[147]
+	Term: hash_data[148]
+	Term: hash_data[149]
+	Term: hash_data[150]
+	Term: hash_data[151]
+	Term: hash_data[152]
+	Term: hash_data[153]
+	Term: hash_data[154]
+	Term: hash_data[155]
+	Term: hash_data[156]
+	Term: hash_data[157]
+	Term: hash_data[158]
+	Term: hash_data[159]
+	Term: hash_data[160]
+	Term: hash_data[161]
+	Term: hash_data[162]
+	Term: hash_data[163]
+	Term: hash_data[164]
+	Term: hash_data[165]
+	Term: hash_data[166]
+	Term: hash_data[167]
+	Term: hash_data[168]
+	Term: hash_data[169]
+	Term: hash_data[170]
+	Term: hash_data[171]
+	Term: hash_data[172]
+	Term: hash_data[173]
+	Term: hash_data[174]
+	Term: hash_data[175]
+	Term: hash_data[176]
+	Term: hash_data[177]
+	Term: hash_data[178]
+	Term: hash_data[179]
+	Term: hash_data[180]
+	Term: hash_data[181]
+	Term: hash_data[182]
+	Term: hash_data[183]
+	Term: hash_data[184]
+	Term: hash_data[185]
+	Term: hash_data[186]
+	Term: hash_data[187]
+	Term: hash_data[188]
+	Term: hash_data[189]
+	Term: hash_data[190]
+	Term: hash_data[191]
+	Term: hash_data[192]
+	Term: hash_data[193]
+	Term: hash_data[194]
+	Term: hash_data[195]
+	Term: hash_data[196]
+	Term: hash_data[197]
+	Term: hash_data[198]
+	Term: hash_data[199]
+	Term: hash_data[200]
+	Term: hash_data[201]
+	Term: hash_data[202]
+	Term: hash_data[203]
+	Term: hash_data[204]
+	Term: hash_data[205]
+	Term: hash_data[206]
+	Term: hash_data[207]
+	Term: hash_data[208]
+	Term: hash_data[209]
+	Term: hash_data[210]
+	Term: hash_data[211]
+	Term: hash_data[212]
+	Term: hash_data[213]
+	Term: hash_data[214]
+	Term: hash_data[215]
+	Term: hash_data[216]
+	Term: hash_data[217]
+	Term: hash_data[218]
+	Term: hash_data[219]
+	Term: hash_data[220]
+	Term: hash_data[221]
+	Term: hash_data[222]
+	Term: hash_data[223]
+	Term: hash_data[224]
+	Term: hash_data[225]
+	Term: hash_data[226]
+	Term: hash_data[227]
+	Term: hash_data[228]
+	Term: hash_data[229]
+	Term: hash_data[230]
+	Term: hash_data[231]
+	Term: hash_data[232]
+	Term: hash_data[233]
+	Term: hash_data[234]
+	Term: hash_data[235]
+	Term: hash_data[236]
+	Term: hash_data[237]
+	Term: hash_data[238]
+	Term: hash_data[239]
+	Term: hash_data[240]
+	Term: hash_data[241]
+	Term: hash_data[242]
+	Term: hash_data[243]
+	Term: hash_data[244]
+	Term: hash_data[245]
+	Term: hash_data[246]
+	Term: hash_data[247]
+	Term: hash_data[248]
+	Term: hash_data[249]
+	Term: hash_data[250]
+	Term: hash_data[251]
+	Term: hash_data[252]
+	Term: hash_data[253]
+	Term: hash_data[254]
+	Term: hash_data[255]
+	Term: input_ready
+	Term: output_valid
+
+
+Resolution: Consider using Xilinx part with greater number of IO pins
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 43 |    24 |     0 |                                                                        |                                          |        |        |        |     |
+| 44 |    24 |     0 |                                                                        |                                          |        |        |        |     |
+| 45 |    22 |     0 |                                                                        |                                          |        |        |        |     |
+| 46 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 64 |    43 |     0 |                                                                        |                                          |        |        |        |     |
+| 65 |    43 |     0 |                                                                        |                                          |        |        |        |     |
+| 66 |    33 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   189 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: f109c53f
+
+Time (s): cpu = 00:00:00.72 ; elapsed = 00:00:00.47 . Memory (MB): peak = 3769.473 ; gain = 0.000 ; free physical = 6058 ; free virtual = 15823
+Phase 1 Placer Initialization | Checksum: f109c53f
+
+Time (s): cpu = 00:00:00.73 ; elapsed = 00:00:00.47 . Memory (MB): peak = 3769.473 ; gain = 0.000 ; free physical = 6058 ; free virtual = 15823
+ERROR: [Place 30-99] Placer failed with error: 'IO Clock Placer failed'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: f109c53f
+
+Time (s): cpu = 00:00:00.73 ; elapsed = 00:00:00.47 . Memory (MB): peak = 3769.473 ; gain = 0.000 ; free physical = 6058 ; free virtual = 15823
+43 Infos, 0 Warnings, 0 Critical Warnings and 4 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 20 14:29:21 2025...

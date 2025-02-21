@@ -7,4 +7,4 @@
 # Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
 #
 
-vivado -log ecdsa_sign.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ecdsa_sign.tcl
+vivado -log sha256.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source sha256.tcl

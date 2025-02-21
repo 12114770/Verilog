@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../ec_encryption.srcs/sources_1/new/sha256.v" \
+"../../../../ec_encryption.srcs/sources_1/new/sha_engine.v" \
+"../../../../ec_encryption.srcs/sources_1/tb/tb_sha256.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

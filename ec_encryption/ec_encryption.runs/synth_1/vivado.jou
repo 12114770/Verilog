@@ -3,22 +3,22 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Sun Jan 26 21:44:50 2025
-# Process ID         : 74968
+# Start of session at: Thu Feb 20 14:28:28 2025
+# Process ID         : 2170661
 # Current directory  : /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/synth_1
-# Command line       : vivado -log ecdsa_sign.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ecdsa_sign.tcl
-# Log file           : /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/synth_1/ecdsa_sign.vds
+# Command line       : vivado -log sha256.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sha256.tcl
+# Log file           : /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/synth_1/sha256.vds
 # Journal file       : /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.runs/synth_1/vivado.jou
 # Running On         : LukasDell
 # Platform           : Ubuntu
-# Operating System   : Ubuntu 24.04.1 LTS
+# Operating System   : Ubuntu 24.04.2 LTS
 # Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
-# CPU Frequency      : 4341.280 MHz
+# CPU Frequency      : 4341.758 MHz
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
 # Host memory        : 24508 MB
 # Swap memory        : 8589 MB
 # Total Virtual      : 33098 MB
-# Available Virtual  : 26690 MB
+# Available Virtual  : 19074 MB
 #-----------------------------------------------------------
-source ecdsa_sign.tcl -notrace
+source sha256.tcl -notrace
