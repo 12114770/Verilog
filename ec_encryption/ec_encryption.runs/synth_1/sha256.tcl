@@ -57,13 +57,11 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 3
-set_param synth.incrementalSynthesisCache ./.Xil/Vivado-2094252-LukasDell/incrSyn
-set_msg_config -id {Common 17-41} -limit 10000000
+set_param synth.incrementalSynthesisCache ./.Xil/Vivado-10478-LukasDell/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xck26-sfvc784-2LVI-i
+create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -72,7 +70,7 @@ set_property webtalk.parent_dir /home/lukas/fpga_vivado/projects/ec_encryption/e
 set_property parent.project_path /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property board_part xilinx.com:k26i:part0:1.4 [current_project]
+set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
 set_property ip_output_repo /home/lukas/fpga_vivado/projects/ec_encryption/ec_encryption.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
@@ -96,7 +94,7 @@ read_checkpoint -auto_incremental -incremental /home/lukas/fpga_vivado/projects/
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top sha256 -part xck26-sfvc784-2LVI-i
+synth_design -top sha256 -part xc7a35tcpg236-1
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"

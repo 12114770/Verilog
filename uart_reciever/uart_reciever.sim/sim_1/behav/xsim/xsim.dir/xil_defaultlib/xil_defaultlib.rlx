@@ -1,0 +1,17 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/lukas/fpga_vivado/projects/uart_reciever/HDL/baud_rate_generator.v,1740697293,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sources_1/new/binary_to_bcd.v,,baud_rate_generator,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/HDL/debounce_explicit.v,1740697293,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/HDL/fifo.v,,debounce_explicit,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/HDL/fifo.v,1740849047,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sources_1/new/hex_to_7seg.v,,fifo,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/HDL/uart_receiver.v,1740697293,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/HDL/uart_test.v,,uart_receiver,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/HDL/uart_test.v,1740840115,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/HDL/uart_top.v,,uart_test,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/HDL/uart_top.v,1740757455,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/HDL/uart_transmitter.v,,uart_top,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/HDL/uart_transmitter.v,1740697293,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sim_1/new/uart_test_tb.v,,uart_transmitter,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+,,,,,,uart_test_tb,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sources_1/new/binary_to_bcd.v,1740847101,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sources_1/new/clk_divider.v,,bin2bcd,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sources_1/new/clk_divider.v,1740933699,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/HDL/debounce_explicit.v,,clk_divider,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sources_1/new/hex_to_7seg.v,1740760252,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sources_1/new/seg_display_driver.v,,hex_to_7seg,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sources_1/new/seg_display_driver.v,1740761124,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/HDL/uart_receiver.v,,seg_display_driver,,,,,,,,

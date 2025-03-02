@@ -104,3 +104,5 @@ Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 21 18:59:39 2025...

@@ -1,7 +1,0 @@
-Time resolution is 1 ps
-At time 0, value = xxxxxxxx (x)
-At time 5000, value = 00000000 (0)
-At time 25000, value = 00000064 (100)
-At time 75000, value = 00000000 (0)
-At time 125000, value = 00000006 (6)
-At time 135000, value = 00000009 (9)

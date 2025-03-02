@@ -1,45 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="14438" HostCore="12" HostMemory="23934480">
+    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="188920" HostCore="12" HostMemory="23934528">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="17023" HostCore="12" HostMemory="23934480">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="19256" HostCore="12" HostMemory="23934480">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="19576" HostCore="12" HostMemory="23934480">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="22156" HostCore="12" HostMemory="23934480">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="25604" HostCore="12" HostMemory="23934480">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="29651" HostCore="12" HostMemory="23934480">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="33170" HostCore="12" HostMemory="23934480">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="36396" HostCore="12" HostMemory="23934480">
+    <Process Command="vivado" Owner="lukas" Host="LukasDell" Pid="208324" HostCore="12" HostMemory="23934528">
     </Process>
 </ProcessHandle>

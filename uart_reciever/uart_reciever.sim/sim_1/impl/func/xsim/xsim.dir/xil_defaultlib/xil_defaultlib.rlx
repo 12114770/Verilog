@@ -1,0 +1,6 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:55
+/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.sim/sim_1/impl/func/xsim/uart_test_tb_func_impl.v,1740934762,verilog,,/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sim_1/new/uart_test_tb.v,,baud_rate_generator;clk_divider;debounce_explicit;fifo;fifo_0;glbl;seg_display_driver;uart_receiver;uart_test;uart_top;uart_transmitter,,,,,,,,
+/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sim_1/new/uart_test_tb.v,1740934548,verilog,,,,uart_test_tb,,,,,,,,

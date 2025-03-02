@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../../uart_reciever/uart_reciever.srcs/sources_1/new/binary_to_bcd.v" \
+"../../../../../uart_reciever/uart_reciever.srcs/sources_1/new/clk_divider.v" \
+"../../../../../uart_reciever/uart_reciever.srcs/sources_1/new/hex_to_7seg.v" \
+"../../../../../uart_reciever/uart_reciever.srcs/sources_1/new/seg_display_driver.v" \
+"../../../../seg_display_driver.srcs/sim_1/new/seg_display_driver_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

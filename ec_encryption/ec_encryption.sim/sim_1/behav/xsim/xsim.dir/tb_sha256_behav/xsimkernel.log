@@ -2,3 +2,6 @@ Running: xsim.dir/tb_sha256_behav/xsimk -simmode gui -wdb tb_sha256_behav.wdb -s
 Design successfully loaded
 Design Loading Memory Usage: 180344 KB (Peak: 180464 KB)
 Design Loading CPU Usage: 750 ms
+Simulation completed
+Simulation Memory Usage: 262340 KB (Peak: 319612 KB)
+Simulation CPU Usage: 770 ms

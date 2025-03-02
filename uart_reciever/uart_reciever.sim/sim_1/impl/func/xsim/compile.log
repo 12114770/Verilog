@@ -1,0 +1,14 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.sim/sim_1/impl/func/xsim/uart_test_tb_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module baud_rate_generator
+INFO: [VRFC 10-311] analyzing module clk_divider
+INFO: [VRFC 10-311] analyzing module debounce_explicit
+INFO: [VRFC 10-311] analyzing module fifo
+INFO: [VRFC 10-311] analyzing module fifo_0
+INFO: [VRFC 10-311] analyzing module seg_display_driver
+INFO: [VRFC 10-311] analyzing module uart_receiver
+INFO: [VRFC 10-311] analyzing module uart_test
+INFO: [VRFC 10-311] analyzing module uart_top
+INFO: [VRFC 10-311] analyzing module uart_transmitter
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.srcs/sim_1/new/uart_test_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_test_tb
