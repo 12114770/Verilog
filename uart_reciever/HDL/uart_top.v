@@ -53,7 +53,9 @@ module uart_top
         output rx_empty,                // no data to read from FIFO
         output tx,                      // serial data out
         output [DBITS-1:0] read_data,   // data to Rx FIFO
-        output [DBITS-1:0] ultimate_data_0
+        output [DBITS-1:0] ultimate_data_0,
+        output [DBITS-1:0] ultimate_data_1
+
         );
     
     // Connection Signals
@@ -125,7 +127,7 @@ module uart_top
 	        .empty(rx_empty),
 	        .full(rx_full),
 	        .ultimate_data_0(ultimate_data_0),
-	        .ultimate_data_1()            
+	        .ultimate_data_1(ultimate_data_1)            
 	      );
 	   
     fifo

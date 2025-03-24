@@ -1,0 +1,36 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Mar 24 19:39:25 2025
+# Process ID         : 2485359
+# Current directory  : /home/lukas/fpga_vivado/projects/spi_smol/spi_smol.runs/impl_1
+# Command line       : vivado -log SPI_slave.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SPI_slave.tcl -notrace
+# Log file           : /home/lukas/fpga_vivado/projects/spi_smol/spi_smol.runs/impl_1/SPI_slave.vdi
+# Journal file       : /home/lukas/fpga_vivado/projects/spi_smol/spi_smol.runs/impl_1/vivado.jou
+# Running On         : LukasDell
+# Platform           : Ubuntu
+# Operating System   : Ubuntu 24.04.2 LTS
+# Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
+# CPU Frequency      : 3476.066 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 24508 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 33098 MB
+# Available Virtual  : 20871 MB
+#-----------------------------------------------------------
+source SPI_slave.tcl -notrace
+Command: open_checkpoint SPI_slave_routed.dcp
+
+Starting open_checkpoint Task
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.03 . Memory (MB): peak = 1435.824 ; gain = 0.000 ; free physical = 1169 ; free virtual = 19503
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1705.863 ; gain = 0.000 ; free physical = 941 ; free virtual = 19285
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Common 17-344] 'open_checkpoint' was cancelled
+INFO: [Common 17-344] 'source' was cancelled
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 24 19:39:35 2025...

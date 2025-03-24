@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:34:34 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Sun Mar  2 18:16:48 2025
-# Process ID         : 440317
+# Start of session at: Sun Mar 23 20:16:03 2025
+# Process ID         : 1937006
 # Current directory  : /home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.runs/impl_1
 # Command line       : vivado -log uart_test.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source uart_test.tcl -notrace
 # Log file           : /home/lukas/fpga_vivado/projects/uart_reciever/uart_reciever.runs/impl_1/uart_test.vdi
@@ -13,12 +13,12 @@
 # Platform           : Ubuntu
 # Operating System   : Ubuntu 24.04.2 LTS
 # Processor Detail   : AMD Ryzen 5 5625U with Radeon Graphics
-# CPU Frequency      : 4287.311 MHz
+# CPU Frequency      : 4194.576 MHz
 # CPU Physical cores : 6
 # CPU Logical cores  : 12
 # Host memory        : 24508 MB
 # Swap memory        : 8589 MB
 # Total Virtual      : 33098 MB
-# Available Virtual  : 21536 MB
+# Available Virtual  : 22590 MB
 #-----------------------------------------------------------
 source uart_test.tcl -notrace

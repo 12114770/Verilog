@@ -55,7 +55,12 @@ set_property PACKAGE_PIN T17 	 [get_ports reset]
 set_property IOSTANDARD LVCMOS33 [get_ports reset]
 
 ##USB-RS232 Interface
-set_property PACKAGE_PIN B18 [get_ports rx]						
+#set_property PACKAGE_PIN B18 [get_ports rx]						
+#set_property IOSTANDARD LVCMOS33 [get_ports rx]
+#set_property PACKAGE_PIN A18 [get_ports tx]						
+#set_property IOSTANDARD LVCMOS33 [get_ports tx]
+
+set_property PACKAGE_PIN G2 [get_ports rx]						
 set_property IOSTANDARD LVCMOS33 [get_ports rx]
-set_property PACKAGE_PIN A18 [get_ports tx]						
+set_property PACKAGE_PIN J1 [get_ports tx]						
 set_property IOSTANDARD LVCMOS33 [get_ports tx]

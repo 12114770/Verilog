@@ -27,7 +27,9 @@ module uart_test(
     wire rx_full, rx_empty, btn_tick;
     wire [7:0] rec_data, rec_data1;
     wire [7:0] ultimate_output_0;
-    
+    wire [7:0] ultimate_output_1;
+    wire [7:0] display_output;
+
     
     // Complete UART Core
     uart_top UART_UNIT
@@ -42,7 +44,8 @@ module uart_test(
             .rx_empty(rx_empty),
             .read_data(rec_data),
             .tx(tx),
-            .ultimate_data_0(ultimate_output_0)
+            .ultimate_data_0(ultimate_output_0),
+            .ultimate_data_1(ultimate_output_1)
         );
     
     // Button Debouncer
@@ -56,16 +59,27 @@ module uart_test(
         );
      seg_display_driver display_driver
         (
-            .output_data_0(ultimate_output_0),
+            .output_data_0(display_output),
             .an(an),
             .seg(seg),
             .clk(clk_100MHz)
         );
-        
+     myadder
+        #(
+            .A_WIDTH(8),
+            .B_WIDTH(8),
+            .Y_WIDTH(8)
+         ) adder
+         ( 
+            .A(ultimate_output_0),
+            .B(ultimate_output_1),
+            .Y(display_output)
+         );
+         
     
     // Signal Logic    
     assign rec_data1 = rec_data + 1;    // add 1 to ascii value of received data (to transmit)
     
     // Output Logic
-    assign LED  =ultimate_output_0;              // data byte received displayed on LEDs   
+    assign LED  =display_output;              // data byte received displayed on LEDs   
 endmodule

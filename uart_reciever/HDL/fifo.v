@@ -18,7 +18,7 @@
 module fifo
 	#(
 	   parameter	DATA_SIZE 	   = 8,	       // number of bits in a data word
-				    ADDR_SPACE_EXP = 4	       // number of address bits (2^4 = 16 addresses)
+				    ADDR_SPACE_EXP = 16	       //4   number of address bits (2^4 = 16 addresses)
 	)
 	(
 	   input clk,                              // FPGA clock           
@@ -34,7 +34,7 @@ module fifo
 );
 
 	// signal declaration
-	reg [DATA_SIZE-1:0] memory [2**ADDR_SPACE_EXP-1:0];		// memory array register
+	(* ram_style = "block" *) reg [DATA_SIZE-1:0] memory [2**ADDR_SPACE_EXP-1:0];		// memory array register
 	reg [ADDR_SPACE_EXP-1:0] current_write_addr, current_write_addr_buff, next_write_addr;
 	reg [ADDR_SPACE_EXP-1:0] current_read_addr, current_read_addr_buff, next_read_addr;
 	reg fifo_full, fifo_empty, full_buff, empty_buff;

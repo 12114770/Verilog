@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1740935767" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/uart_test.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1742757322" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/uart_test.dcp">
   <File Type="VDS-TIMINGSUMMARY" Name="uart_test_timing_summary_synth.rpt"/>
   <File Type="RDS-DCP" Name="uart_test.dcp"/>
   <File Type="RDS-UTIL-PB" Name="uart_test_utilization_synth.pb"/>
@@ -11,6 +11,13 @@
   <File Type="PA-TCL" Name="uart_test.tcl"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/HDL/baud_rate_generator.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
